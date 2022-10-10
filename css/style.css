@@ -1,0 +1,12 @@
+.containerContent{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width: 300px;
+    resize: none;
+}
+.inputIncrement{
+    display: none;
+    width: 300px;
+}
