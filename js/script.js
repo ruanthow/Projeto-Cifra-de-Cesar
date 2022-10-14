@@ -5,7 +5,7 @@ var changeColorButtonBase64 = document.getElementById("pillBlue");
 var incrementar = document.getElementById('incrementar');
 var labelIncrementar = document.getElementById("labelIncremntar")
 
-const alphabet = ['.','é','ú','ó','á','í','ã','ç','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+const alphabet = [' ','.','é','ú','ó','á','í','ã','ç','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
 var textNoCrypto = document.getElementById("textNoCrypto");
 var textCrypto = document.getElementById("textCrypto");   
