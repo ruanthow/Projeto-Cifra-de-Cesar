@@ -76,7 +76,9 @@ textarea{
     height: 3rem;
     width: 9rem;
     margin: 1rem;
-
+    
+    cursor: pointer;
+    
     font-family: 'Silkscreen', cursive;;
     color: white;
     background: linear-gradient(340deg, rgba(24,91,18,1) 0%, rgba(40,198,76,1) 52%, rgba(40,101,32,1) 100%);
