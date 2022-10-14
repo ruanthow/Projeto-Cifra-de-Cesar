@@ -77,7 +77,7 @@ textarea{
     width: 9rem;
     margin: 1rem;
     
-    cursor: pointer;
+   
     
     font-family: 'Silkscreen', cursive;;
     color: white;
@@ -87,7 +87,7 @@ textarea{
     transition: all ease 0.2s;
 }
 .buttons button:hover{
-
+    cursor: pointer;
     transform: scale(1.2);
     transition: all ease 0.2s;
 }
