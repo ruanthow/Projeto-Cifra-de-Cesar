@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
    <meta charset="UTF-8">
@@ -12,23 +12,28 @@
 
 <body>
    <header>
-      <h1>Cifra de César</h1>
+      <h1>Qual pílula você escolhe?</h1>
    </header>
    <main>
       <div class="containerContent">
-         <div>
-            <label for="cfc">Cifra de César</label>
+         <div class="inputsSelect">
+            <div class="pillRed" id="pillRed">
+               <label for="cfc">Cifra de César</label>
+            </div>
             <input type="radio" name="option" id="cfc" >
-            <label for="base64">Base64</label>
+            <div class="pillBlue" id="pillBlue">
+               <label for="base64">Base64</label>
+            </div>     
             <input type="radio" name="option" id="base64" checked>
          </div>
-         <textarea name="" id="textNoCrypto" cols="30" rows="10"></textarea>
+         <textarea name="" id="textNoCrypto"></textarea>
+         <label for="incrementar" id="labelIncremntar" style="color: white;">incrementar</label>
          <input class="inputIncrement"  min="1" type="number" name="" id="incrementar">
-         <div>
+         <div class="buttons">
             <button onclick="Codificar()">Codificar</button>
             <button onclick="Decodificar()">Descodificar</button>
          </div>
-         <textarea name="" id="textCrypto" cols="30" rows="10"></textarea>
+         <textarea name="" id="textCrypto"></textarea>
       </div>
    </main>
    <footer></footer>
